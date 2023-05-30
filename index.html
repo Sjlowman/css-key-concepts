@@ -5,28 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tech Returners Surgery: Home</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
 
-  <body>
-    <header>
-      <h1 href="#">Tech Returners Surgery</h1>
-      <p href="tel:03330509138">0333 050 9138</p>
-    </header>
-
-    <nav>
-      <ol>
-        <a href="#">Home</a>
-        <a href="#">Services</a>
-        <a href="#">Team</a>
-        <a href="#">Patient Information</a>
-        <a href="#">Well-being Centre</a>
-      </ol>
-    </nav>
-
-    <label for="site-search">Search the site</label>
-    <input type="search" id="site-search" name="q" />
-    <button type="button">Search</button>
-
+  <div class="sidenav">
+    <a href="#">Home</a>
+    <a href="#">Services</a>
+    <a href="#">Team</a>
+    <a href="#">Patient Information</a>
+    <a href="#">Well-being Centre</a>
+  </div>
+  <div class="bg-img">
+    <div class="container">
+      <div class="topnav">
+        <header>
+          <h1 href="#">Tech Returners Surgery</h1>
+        </header>
+        <div class="search-container">
+          <button type="submit">
+            <i style="font-size: 24px" class="fa">&#xf00e;</i>
+          </button>
+          <input
+            type="text"
+            placeholder="How can we help you..?"
+            name="search"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="main">
+    <style>
+      body,
+      html {
+        height: 100%;
+      }
+    </style>
     <section>
       <h2><strong>COVID Restriction Update</strong></h2>
 
@@ -55,14 +73,7 @@
     <h2>
       <p>Welcome to the Tech Returners Surgery!</p>
 
-      <img src="./surgery.png" />
-
-      <address>
-        The Tech Returners Surgery,<br />
-        115 Mancunian Way,<br />
-        Manchester,<br />
-        M20 3PX
-      </address>
+      <!-- img src="./surgery.png" /-->
     </h2>
 
     <section>
@@ -135,5 +146,12 @@
         </fieldset>
       </form>
     </section>
-  </body>
+    <address>
+      The Tech Returners Surgery,<br />
+      115 Mancunian Way,<br />
+      Manchester,<br />
+      M20 3PX
+    </address>
+    <p href="tel:03330509138">0333 050 9138</p>
+  </div>
 </html>
